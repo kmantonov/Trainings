@@ -5,3 +5,10 @@ C:\Users\regov\source\repos\LinearDS\LinearDS\obj\Debug\LinearDS.csprojResolveAs
 C:\Users\regov\source\repos\LinearDS\LinearDS\obj\Debug\LinearDS.csproj.CoreCompileInputs.cache
 C:\Users\regov\source\repos\LinearDS\LinearDS\obj\Debug\LinearDS.exe
 C:\Users\regov\source\repos\LinearDS\LinearDS\obj\Debug\LinearDS.pdb
+F:\Repos\Trainings\Data Structures and Algorithms\LinearDS\LinearDS\bin\Debug\LinearDS.exe.config
+F:\Repos\Trainings\Data Structures and Algorithms\LinearDS\LinearDS\bin\Debug\LinearDS.exe
+F:\Repos\Trainings\Data Structures and Algorithms\LinearDS\LinearDS\bin\Debug\LinearDS.pdb
+F:\Repos\Trainings\Data Structures and Algorithms\LinearDS\LinearDS\obj\Debug\LinearDS.csprojResolveAssemblyReference.cache
+F:\Repos\Trainings\Data Structures and Algorithms\LinearDS\LinearDS\obj\Debug\LinearDS.csproj.CoreCompileInputs.cache
+F:\Repos\Trainings\Data Structures and Algorithms\LinearDS\LinearDS\obj\Debug\LinearDS.exe
+F:\Repos\Trainings\Data Structures and Algorithms\LinearDS\LinearDS\obj\Debug\LinearDS.pdb

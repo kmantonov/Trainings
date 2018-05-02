@@ -23,7 +23,9 @@ namespace LinearDS
 
             //Console.WriteLine(string.Join(", ", res1));
 
-            PrintN(2);
+            GetNToM(5, 20);
+
+            //PrintN(2);
              
         }
 
@@ -69,28 +71,6 @@ namespace LinearDS
             }
 
             return result;
-        }
-
-        public static string CheckMajoritant(IEnumerable<int> input)
-        {
-            Dictionary<int, int> ht = new Dictionary<int, int>();
-
-            var g = input.GroupBy(i => i);
-
-            foreach (var item in g)
-            {
-                Console.WriteLine(item.Count());
-                if (item.Count() < (input.Count() / 2) + 1)
-                {
-                    Console.WriteLine($"Majoritant is {item.Key}");
-                    //return "maj";
-                }
-            }
-
-
-            
-            
-            return "No Maj";
         }
 
         public static string Frequencies(int[] input)
@@ -142,7 +122,7 @@ namespace LinearDS
             }
         }
 
-        public static void PrintN(int n)
+        public static void PrintNSequenceQueue(int n)
         {
             //          9.We are given the following sequence:
             //          - `S1 = N;`
@@ -181,21 +161,49 @@ namespace LinearDS
             }
         }
 
-        //10. We are given numbers N and M and the following operations:
-        //* `N = N+1`
-        //* `N = N+2`
-        //* `N = N*2`
-
-        //- Write a program that finds the shortest sequence of operations from the list above that starts from `N` and finishes in `M`.
-        //- _Hint_: use a queue.
-        //- Example: `N = 5`, `M = 16`
-        //- Sequence: 5 -> 7 -> 8 -> 16
-
-        public static void GetNToM(int n, int m)
+        public static void GetNToM(int start, int end)
         {
-            var que = new Queue<int>();
-            
 
+            //10. We are given numbers N and M and the following operations:
+            //* `N = N+1`
+            //* `N = N+2`
+            //* `N = N*2`
+
+            //- Write a program that finds the shortest sequence of operations from the list above that starts from `N` and finishes in `M`.
+            //- _Hint_: use a queue.
+            //- Example: `N = 5`, `M = 16`
+            //- Sequence: 5 -> 7 -> 8 -> 16
+
+            List<int> list = new List<int> { end };
+
+            while (end > start)
+            {
+                if (end / 2 >= start)
+                {
+                    if (end % 2 == 1)
+                    {
+                        --end;
+                        list.Add(end);
+                    }
+
+                    end /= 2;
+                    list.Add(end);
+                }
+                else if (end - 2 >= start)
+                {
+                    end -= 2;
+                    list.Add(end);
+                }
+                else
+                {
+                    --end;
+                    list.Add(end);
+                }
+            }
+
+            Console.WriteLine(string.Join(" ", list));
         }
+
+        
     }
 }
