@@ -1,0 +1,7 @@
+C:\Users\regov\source\repos\LinearDS\LinearDS\bin\Debug\LinearDS.exe.config
+C:\Users\regov\source\repos\LinearDS\LinearDS\bin\Debug\LinearDS.exe
+C:\Users\regov\source\repos\LinearDS\LinearDS\bin\Debug\LinearDS.pdb
+C:\Users\regov\source\repos\LinearDS\LinearDS\obj\Debug\LinearDS.csprojResolveAssemblyReference.cache
+C:\Users\regov\source\repos\LinearDS\LinearDS\obj\Debug\LinearDS.csproj.CoreCompileInputs.cache
+C:\Users\regov\source\repos\LinearDS\LinearDS\obj\Debug\LinearDS.exe
+C:\Users\regov\source\repos\LinearDS\LinearDS\obj\Debug\LinearDS.pdb
